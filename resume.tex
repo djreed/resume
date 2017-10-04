@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass{article}
 
 % Use nice margins
 \usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
@@ -12,6 +12,9 @@
   pdfauthor={David Reed}
 }
 
+% Nicer enumerated lists
+\usepackage{enumitem}
+
 \setlength{\parindent}{0em}
 
 \begin{document}
@@ -24,6 +27,10 @@
   {\LARGE\textsc{\textbf{David Reed}}}
 \end{center}
 \begin{center}
+  \textbf{Availability:}
+  January 2018 - September 2018
+\end{center}
+\begin{center}
   \href{mailto:ddavidreed@gmail.com}{ddavidreed@gmail.com} • \href{http://www.davidjreed.net/}{www.davidjreed.net} • +1 (978) 914--0627 \\
   \hrulefill
 \end{center}
@@ -31,54 +38,55 @@
 
 
 \section*{\textsc{Professional Experience}}
-\begin{itemize}
+\begin{itemize}[label={},leftmargin=*]
 \item \textbf{Software Engineer} at \textbf{Virtyx Technologies} --- Quincy, MA \hfill {\em January 2017--August 2017}
-  \begin{itemize}
+  \begin{itemize}[label={$\bullet$}]
   \item Developed, tested, and deployed a daemon/service-compatible golang software agent for use with data transfers over HTTP and low-level communication protocols
   \item Created and tested front-end dashboard components in AngularJS 2 to coordinate with thematic design principles and streamline the user experience
-  \item Leveraged Java 8 alongside the Apache common libraries to create and test data parsers.
-  \item Developed, tested, and deployed RESTful CRUD APIs for software agent data collection, and front-end data retrieval, in Java using the Spring framework.
+  \item Leveraged Java 8 alongside the Apache common libraries to create and test data parserss
+  \item Developed, tested, and deployed RESTful CRUD APIs for software agent data collection, and front-end data retrieval, in Java using the Spring framework
   \item Integrated 3rd-party API calls to facilitate geolocation and metadata gathering
-  \item Assisted in the creation and expansion of a PostgreSQL database alongside efficient JDBC adapter wrapping.
-  \item Decreased end-to-end transaction time by 80\% through more efficient SQL query usage and faster API data processing.
-  \item Communicated and coordinated with team members to best architect new systems as customer needs evolved.
+  \item Assisted in the management of a PostgreSQL database alongside efficient JDBC wrapping
+  \item Decreased end-to-end transaction time by 80\% through more efficient SQL usage and data processing
+  \item Coordinated with team members to architect new systems as customer needs evolved
   \end{itemize}
 
 \item \textbf{Office Assistant} at \textbf{Northeastern University} --- Boston, MA \hfill {\em October 2015--January 2017}
-  \begin{itemize}
-  \item Organized student needs and relayed requests to respective university faculty and staff.
-  \item Used Microsoft Word and Excel to record and format student and faculty records.
+  \begin{itemize}[label={$\bullet$}]
+  \item Organized student needs and relayed requests to respective university faculty and staff
+  \item Used Microsoft Word and Excel to record and format student and faculty records
   \end{itemize}
 
 \item \textbf{Client Systems Tech} at \textbf{Health1 Technologies} --- Woostock, VT \hfill {\em October 2014--February 2015}
-  \begin{itemize}
-  \item Oversaw 50+ servers for maintenance and error-handling.
-  \item Created and handled server redundancy systems during high-traffic periods.
-  \item Corresponded with management to summarize bug occurances and actions taken to repair services.
+  \begin{itemize}[label={$\bullet$}]
+  \item Oversaw 50+ servers for maintenance and error-handling
+  \item Created and handled server redundancy systems during high-traffic periods
+  \item Corresponded with management to summarize bug occurances and actions taken to repair services
   \end{itemize}
 \end{itemize}
 
 
 \section*{\textsc{Education}}
-\begin{itemize}
+\begin{itemize}[label={},leftmargin=*]
 \item \textbf{B.S. Comp. Sci. and Mathematics Candidate} \hfill \textit{\textbf{Northeastern University}} --- Boston, MA \\ \em{Dean's List}, 3.4 \textsc{g.p.a.} with Honors \hfill {\em September 2015--Present}
 \end{itemize}
 
 
 
 \section*{\textsc{Technical Skills}}
-\begin{itemize}
-\item \textbf{Experienced:} Golang, JavaScript (Node.js and browser), Java, HTML, CSS, git
-\item \textbf{Proficient:} C, Python, PostgreSQL, AngularJS, Spring, GNU Make, Docker, Nginx
-\item \textbf{Familiar:} LaTeX, MySQL, D3.js, Scheme, Shell scripting
+\begin{itemize}[label={},leftmargin=*]
+\item \textbf{Experienced:} Golang, JavaScript (Node.js, JQuery, base), Java, HTML, CSS, Git, Elixir (Phoenix), C
+\item \textbf{Proficient:} C, Python, PostgreSQL, AngularJS, Spring, GNU Make, Docker, Nginx, MIPS Assembly
+\item \textbf{Familiar:} LaTeX, MySQL, D3.js, Scheme, Shell scripting,
 \end{itemize}
 
 
 
-\section*{\textsc{Certifications and Honor Societies}}
-\begin{itemize}
-\item Certified First-Aid Provider
-\item Certified Open-Water SCUBA Diver
+\section*{\textsc{Certifications and Interests}}
+\begin{itemize}[label={$\bullet$}]
+\item First-Aid and CPR Provider
+\item PADI Open-Water SCUBA Diver
+\item Lead Climb and Belay certified
 \end{itemize}
 
 \end{document}
