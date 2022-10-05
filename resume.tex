@@ -23,6 +23,9 @@
 % Single spacing
 \linespread{1}
 
+% Less Hyphenation
+\raggedright
+
 \begin{document}
 
 % Get rid of page numbers
@@ -42,21 +45,27 @@
 \begin{itemize}[label={},leftmargin=*]
   \item \textbf{Senior DevOps Engineer} at \textbf{Drift.com} --- Boston, MA \hfill {\em July 2019 -- Present}
   \begin{itemize}[label={$\bullet$}]
-    \item Reduced build times within our largest repositories by over 30\% on average
-    \item Managed infrastructure-as-code using Terraform and Helm
-    \item Saved 20\% on monthly AWS costs through various migrations, including ECS to Kubernetes
-    \item Built and maintained Java, Python, and Go microservices with various frameworks (Spring, Django)
-    \item Maintained build-and-deploy tooling targeting Elixir, Java, Node, Go, and more
-    \item Handled incidents and outages related to infrastructure/build/deploy issues
+    \item Reduced build times within our largest repositories by over 30\% on average through efficient dependency\\
+          management, compile time reductions, and shared workflows within CircleCI
+    \item Instituted infrastructure-as-code practices using Terraform and Helm across hundreds of services,\\
+          running on both AWS and Google Cloud
+    \item Saved 20\% on monthly AWS costs via migrating to Kubernetes, autoscaling services during peak and\\
+          minimum load, and resizing storage clusters (Databases, Elasticsearch) in response to usage data
+    \item Built and maintained Java, Python, Javascript, and Go microservices with various frameworks,\\ 
+          including Dropwizard, Django, Node, and FastAPI
+    \item Built and maintained CI/CD tooling targeting Elixir, Java, Node, Go, handling multiple daily\\
+          deploys for our largest services
+    \item Handled incident response, engineering triage, and critical bug fixes related to infrastructure-,\\ 
+          build pipeline-, and code deploy-related outages, alongside a common incident response rotation
   \end{itemize}
 
   \item \textbf{Software Engineer Coop} at \textbf{HubSpot Inc} --- Cambridge, MA \hfill {\em January 2019 -- June 2019}
   \begin{itemize}[label={$\bullet$}]
     \item Created and tested public API endpoints using Java 11 and JUnit
-    \item Implemented Java automation against AWS to manage credentials
-    \item Leveraged the OpenSSL toolchain to automate SSL certificate validity across a cloud infrastructure
-    \item Automated cross-region replication of data store backups for disaster recovery
-    \item Created and maintained testable Java 11 microsystems in an Agile environment
+    \item Implemented Java automation against AWS to manage both engineer and application credentials
+    \item Leveraged OpenSSL to automate SSL certificate validity across a cloud infrastructure
+    \item Automated cross-region data replication for database backups for disaster recovery
+    \item Created and maintained testable Java 11 microservices in an Agile environment
   \end{itemize}
 
   \item \textbf{Software Engineer Coop} at \textbf{Alignable} --- Boston, MA \hfill {\em January 2018 -- June 2018}
@@ -82,17 +91,13 @@
 \begin{itemize}[label={},leftmargin=*]
   \item \textbf{B.S. Computer Science}, Minor in Mathematics \hfill \textit{\textbf{Northeastern University}} --- Boston, MA \\
   \em{Dean's List}, 3.6 \textsc{g.p.a.}  \hfill \em{\textit{September 2015 -- December 2019}}
-  \begin{itemize}
-    \item[] \textit{Relevant Classes:} Fundamentals I and II, Object Oriented Design, Web Development, Computer Systems, Software Development, Theory of Computation, Programming Languages, Algorithms \& Data, Introduction to Cryptography\\
-    \item[] \textit{Projects (class and personal):} Multiplayer Javascript Physics Game, Thread-safe Memory Allocator \& File System, Assorted Slack \& Discord Bots, Cryptocurrency Tracking Site
-  \end{itemize}
 \end{itemize}
 
 \section*{\textsc{Technical Skills}}
 \begin{itemize}[label={},leftmargin=*]
   \item \textbf{Experienced:} Java, Golang, C, Git, Docker, Kubernetes, Terraform
-  \item \textbf{Proficient:} SQL, Standard ML, Javascript (React, Node, ES5/6), HTML, CSS, Racket
-  \item \textbf{Familiar:} Shell Scripting, LaTeX, GNU Make, Python, Nginx, C++
+  \item \textbf{Proficient:} SQL, Python, Javascript (React, Node, ES5/6), HTML, CSS, Ruby
+  \item \textbf{Familiar:} Shell Scripting, LaTeX, GNU Make, Nginx, C++, Racket
 \end{itemize}
 
 \end{document}
