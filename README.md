@@ -13,4 +13,4 @@ Compiling my resume assumes that you have a LaTeX installation on your system. Y
 
 ### Compiling
 
-    $ make resume.pdf
+    $ make
